@@ -1,0 +1,10 @@
+Model Accuracy: 0.98
+Classification Report:
+              precision    recall  f1-score   support
+
+         Ham       0.97      1.00      0.99       965
+        Spam       1.00      0.83      0.91       150
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.91      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
