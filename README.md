@@ -1,21 +1,23 @@
-Spam SMS Detection
+# Spam SMS Detection
 
-📌 Overview
+A machine learning project to classify SMS messages as spam or non-spam for the GrowthLink internship.
 
-This project is a Spam SMS Detection system that classifies messages as Spam or Ham (Not Spam) using Natural Language Processing (NLP) and Machine Learning. The model is trained using the Multinomial Naïve Bayes algorithm with TF-IDF (Term Frequency-Inverse Document Frequency) vectorization.
+## Task Objectives
+- Develop a model to identify spam SMS messages using the SMS Spam Collection Dataset.
+- Preprocess text data and apply a classification algorithm.
+- Evaluate the model’s performance.
 
-🚀 Features
+## Steps to Run the Project
+1. Clone this repository: `git clone <your-repo-url>`
+2. Set up a virtual environment: `python -m venv spam_sms_env`
+3. Activate it: `spam_sms_env\Scripts\activate` (Windows) or `source spam_sms_env/bin/activate` (Mac/Linux)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset) and place `spam.csv` in the project folder.
+6. Run the script: `python spam_detection.py`
 
-Preprocesses SMS text by tokenization, stopword removal, and text cleaning.
+## Results
+- Model accuracy and classification report are saved in `results.txt`.
+- The Naive Bayes model effectively distinguishes spam from ham messages.
 
-Converts text data into numerical features using TF-IDF Vectorization.
-
-Uses Multinomial Naïve Bayes for classification.
-
-Evaluates performance using accuracy score and classification report.
-
-Saves model evaluation results to results.txt.
-
-📂 Dataset
-
-The dataset used is spam.csv, which contains SMS messages labeled as ham (not spam) or spam. The dataset is preprocessed before training.
+## Dataset
+- [SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
